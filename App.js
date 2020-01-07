@@ -81,3 +81,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+you small dick lil shit 
