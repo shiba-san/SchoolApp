@@ -9,9 +9,18 @@ import {
 export default function Settings() {
 
     return (
-    <View>
+    <View style={styles.container}>
       <Text>Settings</Text>
     </View>
 
     )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#cadefc',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

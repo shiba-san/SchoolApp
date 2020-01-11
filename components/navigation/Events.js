@@ -9,9 +9,18 @@ import {
 export default function Events() {
 
     return (
-    <View>
+    <View style={styles.container}>
       <Text>Events</Text>
     </View>
 
     )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#cadefc',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
