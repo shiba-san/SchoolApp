@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { 
   StyleSheet,
   Text,
-  View 
+  View, 
+  Button,
+  Alert,
+  
 } from 'react-native';
 
 
@@ -10,7 +13,13 @@ export default function Upload() {
 
     return (
     <View style={styles.container}>
-      <Text>Upload</Text>
+      <View> 
+        <Button
+          title="Upload timetable"
+          color="#f194ff"
+          onPress={() => Alert.alert('Uploaded')}
+        /></View>
+      
     </View>
 
     )
