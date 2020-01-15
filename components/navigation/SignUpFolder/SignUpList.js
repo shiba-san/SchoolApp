@@ -10,7 +10,7 @@ import {
 
 export default function SignUpList({ navigation }) {
   const [event, setEvent] = useState([
-    { name: 'GP Day Elective', description: ' of the loremlorem ipsumlorem loremlorem ipsumlorem ipsum loremloremlorem ipsumlorem ipsumloremloremlorem ipsumlorem dddd ipsumlorem ipsumloremloremlorv dvem idseffves mlorem ipsumloremloremlorem ipsumlorem ipsumlore mlorem lorem i psumlorem ipsumlo remldd oremlorem ipsum lorem ipsumlor emloreml orem ipsumlorem ipsumlorcecepsumlorem ips ecewumlor emipsu mlorem ipsumlorem ipsum ipsum printing.', id: '1' },
+    { name: 'GP Day !Elective', description: ' of the loremlorem ipsumlorem loremlorem ipsumlorem ipsum loremloremlorem ipsumlorem ipsumloremloremlorem ipsumlorem dddd ipsumlorem ipsumloremloremlorv dvem idseffves mlorem ipsumloremloremlorem ipsumlorem ipsumlore mlorem lorem i psumlorem ipsumlo remldd oremlorem ipsum lorem ipsumlor emloreml orem ipsumlorem ipsumlorcecepsumlorem ips ecewumlor emipsu mlorem ipsumlorem ipsum ipsum printing.', id: '1' },
     { name: 'TM Run', description: 'with lorem ipsumthe ', id: '2' },
     { name: 'Math Olympiad Signup', description: 'lelorem ipsumtte, content', id: '3' },
     { name: 'Math Elective', description: 'years, ,  hereccident', id: '4' },
