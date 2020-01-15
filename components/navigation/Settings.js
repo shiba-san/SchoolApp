@@ -38,7 +38,7 @@ export default function Settings() {
           <CheckRow
             text="Check Row"
             iconName="bell"
-            _color="#000"
+            _color="rgb(0,100,100)"
          
           />
           <SliderRow

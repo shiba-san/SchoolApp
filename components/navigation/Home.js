@@ -47,7 +47,7 @@ export default class Home extends React.Component {
 
     return(
       <View style={styles.container} >
-        <Header  centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}/>
+        <Header  centerComponent={{ text: 'MY TITLE', style: { color: 'rgb(122,143,66)' } }}/>
         <View style={styles.classContainer}>
           <FlatList
           data={this.state.dataSource}
