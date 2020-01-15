@@ -16,7 +16,7 @@ export default function Upload() {
       <View> 
         <Button
           title="Upload timetable"
-          color="#f194ff"
+          color="rgb(50,100,100)"
           onPress={() => Alert.alert('Uploaded')}
         /></View>
       
