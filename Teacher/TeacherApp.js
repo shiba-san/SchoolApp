@@ -9,8 +9,7 @@ import { createAppContainer } from 'react-navigation';
 import { createMaterialBottomTabNavigator, NavigationMaterialBottomTabOptions, } from 'react-navigation-material-bottom-tabs';  // It's a bit different from the tutorial
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
-import SignUp from './components/navigation/SignUp.js'; 
-import Events from './components/navigation/Events.js';
+import CreateEvents from './components/navigation/CreateEvents.js';
 import Home from './components/navigation/Home.js';
 import Upload from './components/navigation/Upload.js';
 import Settings from './components/navigation/Settings.js';
@@ -27,14 +26,8 @@ const tabBarIcon = name => ({ tintColor }) => (
 
 const BottomTabMaterial = createMaterialBottomTabNavigator(
   {
-    SignUp:{
-      screen: SignUp,
-      navigationOptions: {
-        tabBarIcon: tabBarIcon('create')
-      }
-    },
-    Events:{
-      screen: Events,
+    CreateEvents:{
+      screen: CreateEvents,
       navigationOptions: {
         tabBarIcon: tabBarIcon('event')
       }
@@ -60,7 +53,7 @@ const BottomTabMaterial = createMaterialBottomTabNavigator(
   },
   {
     shifting: false,
-    activeColor: '#6200ee', // Color of icons at bottom
+    activeColor: '#6200ee', // Color of icons at bottom nav bar when clicked
     inactiveColor: '#000',
     barStyle: {
       backgroundColor: '#f8f7f9',

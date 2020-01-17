@@ -8,7 +8,7 @@ const screens = {
     SignUpList: {
         screen: SignUpList,
         navigationOptions: {
-            title: 'Sign Up Now!',
+            title: 'Click to sign up!',
             // headerStyle: { backgroundColor: '#333'}
         }
     },
